@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="../public/style.css"> -->
+        <title>Movie Search app</title>
+    </head>
+    <body>
+        <h1>Results page</h1>
+
+        <% var title = document.queySelectorAll(li); %>
+        <ul>
+            <% data.Search.forEach(function(movie){ %>
+                <li><strong><%= movie.Title %></strong> - <%= movie.Year %></li>
+                <br>
+                <img src= '<%= movie.Poster %>'>
+                <br>
+                <% console.log(movie.imdbID) %>
+            <% }); %>
+        </ul>
+
+        <a href="/">Search again</a>
+         <!-- <% title.addEventListener('click', function(){ %>
+             <form method="GET" action="/movie">
+                <%
+             </form>
+         <% }) %> -->
+
+    </body>
+</html>

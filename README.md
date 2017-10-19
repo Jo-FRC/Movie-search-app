@@ -1,2 +1,2 @@
 # Movie-search-app
-Javascript movie search app with omdb apis
+Movie-search-app uses the IMDb open API, it's based on Javascript and EJS.
